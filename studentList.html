@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arman LMS</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <section class="">
+        <style>
+            .armanMenuText{
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: white;
+            }
+            .armanMenuText.active{
+                color: red;
+            }
+        </style>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-3 col-4 bg-dark" style="height: 100vh;overflow: auto;">
+                    <div class="row py-5"><a href="" class="armanMenuText" style="text-transform: uppercase;font-weight: bold;">Trainer 1</a></div>
+                    <div class="row"><a href="trainer.html" class="armanMenuText">Dashboard</a></div>
+                    <div class="row"><a href="studentList.html" class="armanMenuText active">Student List</a></div>
+                </div>
+                <div class="col-xl-10 col-lg-9 col-md-9 col-8" style="height: 100vh;overflow: auto;">
+                    <div class="table-responsive mt-4 p-2" style="box-shadow: 0px 0px 5px gray; border-radius: .5rem;">
+                        <h3>Pending Request</h3>
+                        <hr>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th scope="col">SL</th>
+                                <th scope="col">Student Name</th>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Batch</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Student 1</td>
+                                <td>Math</td>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected hidden>Batch Name</option>
+                                        <option value="E1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-success">Add</a>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Student 2</td>
+                                <td>English</td>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected hidden>Batch Name</option>
+                                        <option value="E1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-success">Add</a>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive p-2 mt-4" style="box-shadow: 0px 0px 5px gray; border-radius: .5rem;">
+                        <h3>Math Student List</h3>
+                        <hr>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th scope="col">SL</th>
+                                <th scope="col">Student Name</th>
+                                <th scope="col">Batch</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Student 1</td>
+                                <td>2nd</td>
+                                <td>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Student 2</td>
+                                <td>2nd</td>
+                                <td>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive p-2 mt-4" style="box-shadow: 0px 0px 5px gray; border-radius: .5rem;">
+                        <h3>English Student List</h3>
+                        <hr>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th scope="col">SL</th>
+                                <th scope="col">Student Name</th>
+                                <th scope="col">Batch</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Student 1</td>
+                                <td>2nd</td>
+                                <td>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Student 2</td>
+                                <td>2nd</td>
+                                <td>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
